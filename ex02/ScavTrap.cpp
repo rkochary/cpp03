@@ -15,7 +15,7 @@ ScavTrap::ScavTrap(const std::string name)
     this->_energyPoints = 10;
     this->_hitPoints = 10;
     std::cout << "Parameterized Constractor called for ScavTrap" << std::endl;
-    std::cout << this->_name << " created" <<std::endl;
+    std::cout << this->_name << " created as a ScavTrap" <<std::endl;
 }
 
 ScavTrap::~ScavTrap()
